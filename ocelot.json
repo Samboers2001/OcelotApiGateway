@@ -1,0 +1,22 @@
+{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/auth/{userId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "account-clusterip-srv",
+                    "Port": 80
+                }
+            ],
+            "UpstreamPathTemplate": "/api/auth/{userId}",
+            "UpstreamHttpMethod": [ "GET" ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer"
+            }
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "http://localhost:30884"
+    }
+}

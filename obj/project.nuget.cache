@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "yZB+JbkwvGPFhp0H6T/BNKR+qhTfbs80sGieAUAK3eVwgCzvMjyqQZ2UlbHjIxAKGNiDJKx68ZIO+IUupO2Lkw==",
+  "success": true,
+  "projectFilePath": "/Users/samboers/development/order_management_system/OcelotApiGateway/OcelotApiGateway.csproj",
+  "expectedPackageFiles": [
+    "/Users/samboers/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/ipaddressrange/6.0.0/ipaddressrange.6.0.0.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.13/microsoft.aspnetcore.authentication.jwtbearer.7.0.13.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/microsoft.aspnetcore.jsonpatch/7.0.5/microsoft.aspnetcore.jsonpatch.7.0.5.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/microsoft.aspnetcore.middlewareanalysis/7.0.5/microsoft.aspnetcore.middlewareanalysis.7.0.5.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/7.0.5/microsoft.aspnetcore.mvc.newtonsoftjson.7.0.5.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/microsoft.extensions.diagnosticadapter/3.1.32/microsoft.extensions.diagnosticadapter.3.1.32.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.15.1/microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/microsoft.identitymodel.logging/6.15.1/microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/microsoft.identitymodel.protocols/6.15.1/microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.15.1/microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/microsoft.identitymodel.tokens/6.15.1/microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/ocelot/20.0.0/ocelot.20.0.0.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/system.identitymodel.tokens.jwt/6.15.1/system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "/Users/samboers/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
