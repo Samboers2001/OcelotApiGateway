@@ -28,6 +28,18 @@
             "UpstreamHttpMethod": [ "POST" ]
         },
         {
+            "DownstreamPathTemplate": "/api/auth/register-admin",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "account-clusterip-srv",
+                    "Port": 80
+                }
+            ],
+            "UpstreamPathTemplate": "/api/auth/register-admin",
+            "UpstreamHttpMethod": [ "POST" ]
+        },
+        {
             "DownstreamPathTemplate": "/api/auth/login",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
