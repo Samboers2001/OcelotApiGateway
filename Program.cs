@@ -49,7 +49,7 @@ namespace OcelotBasic
                     ValidAudience = configuration["JWTAuth:ValidAudienceURL"],
                     ValidIssuer = configuration["JWTAuth:ValidIssuerURL"],
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWTAuth:SecretKey"]))
-                };
+                }; 
             });
             })
             .ConfigureLogging((hostingContext, logging) =>
