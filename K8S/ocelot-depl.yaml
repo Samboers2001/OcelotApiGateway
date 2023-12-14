@@ -19,5 +19,5 @@ spec:
         - name: ocelot-api-gateway
           image: gcr.io/ordering-system-404411/ocelotapigateway
           imagePullPolicy: Always
-
+ 
 
