@@ -72,7 +72,7 @@ namespace OcelotApiGateway
                 })
                 .Build();
 
-            await host.RunAsync();
+            host.Run();
         }
     }
 }

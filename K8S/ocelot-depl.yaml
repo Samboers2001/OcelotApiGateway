@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ocelot-depl
-  namespace: ordering-system
   labels:
     app: ocelot-api-gateway
 spec:
@@ -19,5 +18,19 @@ spec:
         - name: ocelot-api-gateway
           image: gcr.io/ordering-system-404411/ocelotapigateway
           imagePullPolicy: Always
- 
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ocelot-service
+  labels:
+    app: ocelot-api-gateway
+spec:
+  selector:
+    app: ocelot-api-gateway
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: LoadBalancer
 
