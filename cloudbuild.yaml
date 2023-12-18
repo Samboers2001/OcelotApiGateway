@@ -19,7 +19,7 @@ steps:
 
   env:
     - 'CLOUDSDK_COMPUTE_ZONE=europe-west4'
-    - 'CLOUDSDK_CONTAINER_CLUSTER=ordering-system-autopilot-cluster' 
+    - 'CLOUDSDK_CONTAINER_CLUSTER=os-sam' 
 
 - name: 'gcr.io/cloud-builders/kubectl'
   args:
@@ -29,7 +29,7 @@ steps:
 
   env:
     - 'CLOUDSDK_COMPUTE_ZONE=europe-west4'
-    - 'CLOUDSDK_CONTAINER_CLUSTER=ordering-system-autopilot-cluster' 
+    - 'CLOUDSDK_CONTAINER_CLUSTER=os-sam' 
 
 - name: 'gcr.io/cloud-builders/kubectl'
   args:
@@ -42,7 +42,7 @@ steps:
 
   env:
     - 'CLOUDSDK_COMPUTE_ZONE=europe-west4'
-    - 'CLOUDSDK_CONTAINER_CLUSTER=ordering-system-autopilot-cluster'
+    - 'CLOUDSDK_CONTAINER_CLUSTER=os-sam'
 
 images: ['gcr.io/ordering-system-404411/ocelotapigateway:latest']
 logsBucket: "gs://accountci-logs-bucket"
