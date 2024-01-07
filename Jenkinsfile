@@ -37,6 +37,7 @@ pipeline {
                     sh 'kubectl apply -f K8S/Local/ocelot-depl.yaml'
                     sh 'kubectl apply -f K8S/Local/ocelot-loadbalancer-srv.yaml'
                     sh 'kubectl apply -f K8S/Local/ocelot-service-hpa.yaml'
+                }
             }
         }
 
