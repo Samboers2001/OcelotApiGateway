@@ -17,7 +17,7 @@ pipeline {
                 script {
                     sh 'docker build -t samboers/ocelotapigateway .'
                 }
-            } 
+            }
         }
         
         stage('Push to dockerhub') {
@@ -31,12 +31,12 @@ pipeline {
             }
         }
 
-        stage('Deploy AccountMicroservice to Kubernetes') {
+        stage('Deploy OcelotApiGateway to Kubernetes') {
             steps {
                 script {
                     sh 'kubectl apply -f K8S/Local/ocelot-depl.yaml'
-                    sh 'kubectl apply -f K8S/Local/ocelot-loadbalancer-srv.yaml'
                     sh 'kubectl apply -f K8S/Local/ocelot-service-hpa.yaml'
+                    sh 'kubectl apply -f K8S/Local/ocelot-loadbalancer-service.yaml'
                 }
             }
         }
