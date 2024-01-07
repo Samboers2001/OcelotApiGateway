@@ -15,7 +15,7 @@ steps:
   args:
     - 'apply'
     - '-f'
-    - 'K8S/ocelot-depl.yaml'
+    - 'K8S/GKE/ocelot-depl.yaml'
 
   env:
     - 'CLOUDSDK_COMPUTE_ZONE=europe-west4'

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ocelot-api-gateway-depl
+  namespace: ordering-system
+  labels:
+    app: ocelot-api-gateway
+spec:
+  replicas: 1 
+  selector:
+    matchLabels:
+      app: ocelot-api-gateway
+  template:
+    metadata:
+      labels:
+        app: ocelot-api-gateway
+    spec:
+      containers:
+        - name: ocelot-api-gateway
+          image: samboers/ocelotapigateway:latest
+
+
