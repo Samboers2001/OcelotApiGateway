@@ -44,7 +44,7 @@ pipeline {
         stage('Rollout Restart') {
             steps {
                 script {
-                    sh 'kubectl rollout restart deployment ocelot-depl'
+                    sh 'kubectl rollout restart deployment ocelot-api-gateway-depl'
                 }
             }
         }
