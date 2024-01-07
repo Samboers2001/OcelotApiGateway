@@ -17,7 +17,7 @@ pipeline {
                 script {
                     sh 'docker build -t samboers/ocelotapigateway .'
                 }
-            }
+            } 
         }
         
         stage('Push to dockerhub') {
