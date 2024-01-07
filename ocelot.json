@@ -68,6 +68,6 @@
         }
     ],
     "GlobalConfiguration": {
-        "BaseUrl": "http://34.147.117.194"
+        "BaseUrl": "http://localhost:30818"
     }
 }

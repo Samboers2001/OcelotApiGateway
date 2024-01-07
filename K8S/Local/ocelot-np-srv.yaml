@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: ocelot-service-loadbalancer
+  name: ocelot-service-nodeport
   labels:
     app: ocelot-api-gateway
 spec:
@@ -11,4 +11,5 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-  type: LoadBalancer
+      nodePort: 30818  
+  type: NodePort
