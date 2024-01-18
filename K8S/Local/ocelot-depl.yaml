@@ -18,5 +18,19 @@ spec:
       containers:
         - name: ocelot-api-gateway
           image: samboers/ocelotapigateway:latest
-
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ocelot-clusterip-srv
+  namespace: ordering-system
+spec:
+  type: ClusterIP
+  selector:
+    app: ocetlot-api-gateway
+  ports:
+  - name: ocetlot-api-gateway
+    protocol: TCP
+    port: 80
+    targetPort: 80
 
