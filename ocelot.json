@@ -98,11 +98,6 @@
         }        
     ],
     "GlobalConfiguration": {
-        "BaseUrl": "http://ocelot-clusterip-srv",
-        "CorsOptions": {
-            "AllowedOrigins": ["*"],
-            "AllowedMethods": ["GET", "POST", "PUT", "DELETE"],
-            "AllowedHeaders": ["Content-Type", "Authorization"]
-        }
+        "BaseUrl": "http://localhost:30818"
     }
 }

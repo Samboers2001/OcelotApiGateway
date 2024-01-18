@@ -31,6 +31,16 @@ namespace OcelotApiGateway
                 {
                     IConfiguration configuration = hostingContext.Configuration;
 
+                    services.AddCors(options =>
+                    {
+                        options.AddPolicy("CorsPolicy",
+                            builder => builder
+                                .AllowAnyOrigin()
+                                .AllowAnyMethod()
+                                .AllowAnyHeader()
+                                .AllowCredentials());
+                    });
+
                     services.AddOcelot();
 
                     // Add authentication
