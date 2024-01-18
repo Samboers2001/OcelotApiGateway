@@ -100,10 +100,9 @@
     "GlobalConfiguration": {
         "BaseUrl": "http://ocelot-clusterip-srv",
         "CorsOptions": {
-            "AllowedOrigins": ["http://os-client-loadbalancer"],
+            "AllowedOrigins": ["*"],
             "AllowedMethods": ["GET", "POST", "PUT", "DELETE"],
             "AllowedHeaders": ["Content-Type", "Authorization"]
         }
     }
-    
 }
