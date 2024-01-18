@@ -71,8 +71,8 @@ namespace OcelotApiGateway
                 .UseIISIntegration()
                 .Configure(app =>
                 {
-                    app.UseRouting();
                     app.UseCors("CorsPolicy");
+                    app.UseRouting();
 
                     // Add authentication middleware
                     app.UseAuthentication();
