@@ -35,7 +35,7 @@ namespace OcelotApiGateway
                     {
                         options.AddPolicy("CorsPolicy",
                             builder => builder
-                                .AllowAnyOrigin()
+                                .WithOrigins("http://localhost:5173", "http://10.102.87.81:5000")
                                 .AllowAnyMethod()
                                 .AllowAnyHeader()
                                 .AllowCredentials());
