@@ -112,7 +112,7 @@
             }
         },   
         {
-            "DownstreamPathTemplate": "/api/product/delete",
+            "DownstreamPathTemplate": "/api/product/delete/{everything}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
