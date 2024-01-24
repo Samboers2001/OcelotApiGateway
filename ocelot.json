@@ -97,7 +97,7 @@
             }
         },
         {
-            "DownstreamPathTemplate": "/api/product/edit",
+            "DownstreamPathTemplate": "/api/product/edit/{everything}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
@@ -105,7 +105,7 @@
                     "Port": 80
                 }
             ],
-            "UpstreamPathTemplate": "/api/product/edit",
+            "UpstreamPathTemplate": "/api/product/edit/{everything}",
             "UpstreamHttpMethod": [ "PUT" ],
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "Bearer"

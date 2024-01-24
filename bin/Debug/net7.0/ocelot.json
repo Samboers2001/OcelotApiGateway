@@ -120,7 +120,7 @@
                     "Port": 80
                 }
             ],
-            "UpstreamPathTemplate": "/api/product/delete",
+            "UpstreamPathTemplate": "/api/product/delete/{everything}",
             "UpstreamHttpMethod": [ "DELETE" ],
             "AuthenticationOptions": {
                 "AuthenticationProviderKey": "Bearer"
