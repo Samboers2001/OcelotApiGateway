@@ -6,7 +6,7 @@
   <SonarScannerWorkingDirectory>/Users/samboers/development/order_management_system/OcelotApiGateway</SonarScannerWorkingDirectory>
   <HasBeginStepCommandLineCredentials>true</HasBeginStepCommandLineCredentials>
   <SonarQubeHostUrl>https://sonarcloud.io</SonarQubeHostUrl>
-  <SonarQubeVersion>8.0.0.52056</SonarQubeVersion>
+  <SonarQubeVersion>8.0.0.52135</SonarQubeVersion>
   <SonarProjectKey>Samboers2001_OcelotApiGateway</SonarProjectKey>
   <AdditionalConfig>
     <ConfigSetting Id="BuildUri" />
@@ -18,7 +18,7 @@
   </AdditionalConfig>
   <ServerSettings>
     <Property Name="sonar.project.monorepo.enabled">false</Property>
-    <Property Name="sonaranalyzer-cs.nuget.packageVersion">9.16.0.82469</Property>
+    <Property Name="sonaranalyzer-cs.nuget.packageVersion">9.17.0.82934</Property>
     <Property Name="sonaranalyzer.security.cs.pluginVersion">10.4.0-M2.29539</Property>
     <Property Name="sonar.cs.ignoreHeaderComments">true</Property>
     <Property Name="sonar.c.file.suffixes">.c,.h</Property>
@@ -88,7 +88,7 @@
     <Property Name="sonaranalyzer.security.cs.ruleNamespace">SonarAnalyzer.Security</Property>
     <Property Name="sonar.cobol.tab.width">8</Property>
     <Property Name="sonar.text.inclusions.activate">false</Property>
-    <Property Name="sonaranalyzer-vbnet.staticResourceName">SonarAnalyzer-9.16.0.82469.zip</Property>
+    <Property Name="sonaranalyzer-vbnet.staticResourceName">SonarAnalyzer-9.17.0.82934.zip</Property>
     <Property Name="sonar.java.file.suffixes">.java,.jav</Property>
     <Property Name="sonar.kotlin.file.suffixes">.kt,.kts</Property>
     <Property Name="sonar.php.file.suffixes">php,php3,php4,php5,phtml,inc</Property>
@@ -98,7 +98,7 @@
     <Property Name="sonar.python.coverage.reportPaths">coverage-reports/*coverage-*.xml</Property>
     <Property Name="sonar.sensor.cache.enable">true</Property>
     <Property Name="sonar.text.activate">true</Property>
-    <Property Name="sonaranalyzer-vbnet.nuget.packageVersion">9.16.0.82469</Property>
+    <Property Name="sonaranalyzer-vbnet.nuget.packageVersion">9.17.0.82934</Property>
     <Property Name="sonar.go.file.suffixes">.go</Property>
     <Property Name="sonar.cpd.cobol.minimumLines">30</Property>
     <Property Name="sonar.cobol.exec.recoveryMode">true</Property>
@@ -122,7 +122,7 @@
     <Property Name="sonar.terraform.activate">true</Property>
     <Property Name="sonaranalyzer-vbnet.nuget.packageId">SonarAnalyzer.VisualBasic</Property>
     <Property Name="email.from">noreply@sonarcloud.io</Property>
-    <Property Name="sonaranalyzer-vbnet.pluginVersion">9.16.0.82469</Property>
+    <Property Name="sonaranalyzer-vbnet.pluginVersion">9.17.0.82934</Property>
     <Property Name="sonaranalyzer.security.cs.analyzerId">SonarAnalyzer.Security</Property>
     <Property Name="sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByWeek">1</Property>
     <Property Name="sonaranalyzer-vbnet.analyzerId">SonarAnalyzer.VisualBasic</Property>
@@ -140,7 +140,7 @@
     <Property Name="sonar.text.inclusions">**/*.sh,**/*.bash,**/*.zsh,**/*.ksh,**/*.ps1,**/*.properties,**/*.conf,**/*.pem,**/*.config,.env,.aws/config</Property>
     <Property Name="sonar.ruby.coverage.reportPaths">coverage/.resultset.json</Property>
     <Property Name="sonar.qualityProfiles.allowDisableInheritedRules">true</Property>
-    <Property Name="sonaranalyzer-cs.staticResourceName">SonarAnalyzer-9.16.0.82469.zip</Property>
+    <Property Name="sonaranalyzer-cs.staticResourceName">SonarAnalyzer-9.17.0.82934.zip</Property>
     <Property Name="sonar.cpd.cobol.ignoreLiteral">true</Property>
     <Property Name="sonaranalyzer-cs.nuget.packageId">SonarAnalyzer.CSharp</Property>
     <Property Name="sonar.authenticator.downcase">false</Property>
@@ -149,7 +149,7 @@
     <Property Name="sonar.technicalDebt.ratingGrid">0.05,0.1,0.2,0.5</Property>
     <Property Name="sonar.lf.enableGravatar">true</Property>
     <Property Name="sonar.docker.activate">true</Property>
-    <Property Name="sonaranalyzer-cs.pluginVersion">9.16.0.82469</Property>
+    <Property Name="sonaranalyzer-cs.pluginVersion">9.17.0.82934</Property>
     <Property Name="sonaranalyzer.security.cs.staticResourceName">SonarAnalyzer.Security-10.4.0-M2.29539.zip</Property>
     <Property Name="sonar.azureresourcemanager.file.suffixes">.bicep</Property>
     <Property Name="sonar.javascript.file.suffixes">.js,.jsx,.cjs,.mjs,.vue</Property>
@@ -171,7 +171,7 @@
 Automatic Analysis will not be available between 07:00 CET and 09:00 CET</Property>
     <Property Name="sonar.maintenance_mode.link">https://community.sonarsource.com/t/sonarcloud-autoscan-maintenance-september-28th-07-00-and-09-00-cet/101442</Property>
     <Property Name="sonar.maintenance_mode.start_date">2023-09-28T09:10:00:00.000+01:00</Property>
-    <Property Name="sonar.core.startTime">01/17/2024 17:09:49</Property>
+    <Property Name="sonar.core.startTime">01/24/2024 09:07:12</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">https://sonarcloud.io</Property>
@@ -183,22 +183,22 @@ Automatic Analysis will not be available between 07:00 CET and 09:00 CET</Proper
       <RulesetPath>/Users/samboers/development/order_management_system/OcelotApiGateway/.sonarqube/conf/Sonar-cs.ruleset</RulesetPath>
       <DeactivatedRulesetPath>/Users/samboers/development/order_management_system/OcelotApiGateway/.sonarqube/conf/Sonar-cs-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
-        <AnalyzerPlugin Key="csharp" Version="9.16.0.82469" StaticResourceName="SonarAnalyzer-9.16.0.82469.zip">
+        <AnalyzerPlugin Key="csharp" Version="9.17.0.82934" StaticResourceName="SonarAnalyzer-9.17.0.82934.zip">
           <AssemblyPaths>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/0/Google.Protobuf.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/0/SonarAnalyzer.CFG.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/0/SonarAnalyzer.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/0/THIRD-PARTY-NOTICES.txt</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/0/SonarAnalyzer.CSharp.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/3/Google.Protobuf.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/3/SonarAnalyzer.CFG.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/3/SonarAnalyzer.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/3/THIRD-PARTY-NOTICES.txt</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/3/SonarAnalyzer.CSharp.dll</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
-        <AnalyzerPlugin Key="vbnet" Version="9.16.0.82469" StaticResourceName="SonarAnalyzer-9.16.0.82469.zip">
+        <AnalyzerPlugin Key="vbnet" Version="9.17.0.82934" StaticResourceName="SonarAnalyzer-9.17.0.82934.zip">
           <AssemblyPaths>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/1/SonarAnalyzer.VisualBasic.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/1/Google.Protobuf.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/1/SonarAnalyzer.CFG.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/1/SonarAnalyzer.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/1/THIRD-PARTY-NOTICES.txt</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/4/SonarAnalyzer.VisualBasic.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/4/Google.Protobuf.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/4/SonarAnalyzer.CFG.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/4/SonarAnalyzer.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/4/THIRD-PARTY-NOTICES.txt</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
         <AnalyzerPlugin Key="securitycsharpfrontend" Version="10.4.0-M2.29539" StaticResourceName="SonarAnalyzer.Security-10.4.0-M2.29539.zip">
@@ -218,22 +218,22 @@ Automatic Analysis will not be available between 07:00 CET and 09:00 CET</Proper
       <RulesetPath>/Users/samboers/development/order_management_system/OcelotApiGateway/.sonarqube/conf/Sonar-vbnet.ruleset</RulesetPath>
       <DeactivatedRulesetPath>/Users/samboers/development/order_management_system/OcelotApiGateway/.sonarqube/conf/Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
-        <AnalyzerPlugin Key="csharp" Version="9.16.0.82469" StaticResourceName="SonarAnalyzer-9.16.0.82469.zip">
+        <AnalyzerPlugin Key="csharp" Version="9.17.0.82934" StaticResourceName="SonarAnalyzer-9.17.0.82934.zip">
           <AssemblyPaths>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/0/Google.Protobuf.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/0/SonarAnalyzer.CFG.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/0/SonarAnalyzer.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/0/THIRD-PARTY-NOTICES.txt</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/0/SonarAnalyzer.CSharp.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/3/Google.Protobuf.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/3/SonarAnalyzer.CFG.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/3/SonarAnalyzer.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/3/THIRD-PARTY-NOTICES.txt</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/3/SonarAnalyzer.CSharp.dll</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
-        <AnalyzerPlugin Key="vbnet" Version="9.16.0.82469" StaticResourceName="SonarAnalyzer-9.16.0.82469.zip">
+        <AnalyzerPlugin Key="vbnet" Version="9.17.0.82934" StaticResourceName="SonarAnalyzer-9.17.0.82934.zip">
           <AssemblyPaths>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/1/SonarAnalyzer.VisualBasic.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/1/Google.Protobuf.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/1/SonarAnalyzer.CFG.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/1/SonarAnalyzer.dll</Path>
-            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/1/THIRD-PARTY-NOTICES.txt</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/4/SonarAnalyzer.VisualBasic.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/4/Google.Protobuf.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/4/SonarAnalyzer.CFG.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/4/SonarAnalyzer.dll</Path>
+            <Path>/var/folders/w9/tg95plv54dg57ddy9555598m0000gn/T/.sonarqube/resources/4/THIRD-PARTY-NOTICES.txt</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
       </AnalyzerPlugins>

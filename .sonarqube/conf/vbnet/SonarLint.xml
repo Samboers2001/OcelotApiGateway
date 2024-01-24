@@ -20,7 +20,7 @@
   </Settings>
   <Rules>
     <Rule>
-      <Key>S4790</Key>
+      <Key>S2225</Key>
     </Rule>
     <Rule>
       <Key>S2589</Key>
@@ -29,29 +29,34 @@
       <Key>S1135</Key>
     </Rule>
     <Rule>
-      <Key>S3776</Key>
-      <Parameters>
-        <Parameter>
-          <Key>threshold</Key>
-          <Value>15</Value>
-        </Parameter>
-        <Parameter>
-          <Key>propertyThreshold</Key>
-          <Value>3</Value>
-        </Parameter>
-      </Parameters>
+      <Key>S1134</Key>
+    </Rule>
+    <Rule>
+      <Key>S2222</Key>
+    </Rule>
+    <Rule>
+      <Key>S2583</Key>
+    </Rule>
+    <Rule>
+      <Key>S3329</Key>
+    </Rule>
+    <Rule>
+      <Key>S1944</Key>
+    </Rule>
+    <Rule>
+      <Key>S3655</Key>
+    </Rule>
+    <Rule>
+      <Key>S4507</Key>
     </Rule>
     <Rule>
       <Key>S1125</Key>
     </Rule>
     <Rule>
-      <Key>S1481</Key>
+      <Key>S5042</Key>
     </Rule>
     <Rule>
-      <Key>S5773</Key>
-    </Rule>
-    <Rule>
-      <Key>S1172</Key>
+      <Key>S5659</Key>
     </Rule>
     <Rule>
       <Key>S5547</Key>
@@ -60,19 +65,40 @@
       <Key>S5542</Key>
     </Rule>
     <Rule>
-      <Key>S1066</Key>
-    </Rule>
-    <Rule>
-      <Key>S1186</Key>
+      <Key>S6602</Key>
     </Rule>
     <Rule>
       <Key>S4423</Key>
+    </Rule>
+    <Rule>
+      <Key>S6603</Key>
+    </Rule>
+    <Rule>
+      <Key>S5753</Key>
+    </Rule>
+    <Rule>
+      <Key>S4663</Key>
+    </Rule>
+    <Rule>
+      <Key>S6609</Key>
+    </Rule>
+    <Rule>
+      <Key>S6605</Key>
+    </Rule>
+    <Rule>
+      <Key>S6608</Key>
+    </Rule>
+    <Rule>
+      <Key>S6607</Key>
     </Rule>
     <Rule>
       <Key>S2259</Key>
     </Rule>
     <Rule>
       <Key>S2257</Key>
+    </Rule>
+    <Rule>
+      <Key>S4790</Key>
     </Rule>
     <Rule>
       <Key>S2068</Key>
@@ -99,6 +125,61 @@
       <Key>S2077</Key>
     </Rule>
     <Rule>
+      <Key>S5443</Key>
+    </Rule>
+    <Rule>
+      <Key>S5445</Key>
+    </Rule>
+    <Rule>
+      <Key>S2612</Key>
+    </Rule>
+    <Rule>
+      <Key>S2053</Key>
+    </Rule>
+    <Rule>
+      <Key>S3871</Key>
+    </Rule>
+    <Rule>
+      <Key>S1313</Key>
+    </Rule>
+    <Rule>
+      <Key>S6444</Key>
+    </Rule>
+    <Rule>
+      <Key>S4830</Key>
+    </Rule>
+    <Rule>
+      <Key>S4036</Key>
+    </Rule>
+    <Rule>
+      <Key>S3776</Key>
+      <Parameters>
+        <Parameter>
+          <Key>threshold</Key>
+          <Value>15</Value>
+        </Parameter>
+        <Parameter>
+          <Key>propertyThreshold</Key>
+          <Value>3</Value>
+        </Parameter>
+      </Parameters>
+    </Rule>
+    <Rule>
+      <Key>S1481</Key>
+    </Rule>
+    <Rule>
+      <Key>S5773</Key>
+    </Rule>
+    <Rule>
+      <Key>S1172</Key>
+    </Rule>
+    <Rule>
+      <Key>S1066</Key>
+    </Rule>
+    <Rule>
+      <Key>S1186</Key>
+    </Rule>
+    <Rule>
       <Key>S117</Key>
       <Parameters>
         <Parameter>
@@ -112,36 +193,6 @@
     </Rule>
     <Rule>
       <Key>S1075</Key>
-    </Rule>
-    <Rule>
-      <Key>S2612</Key>
-    </Rule>
-    <Rule>
-      <Key>S4507</Key>
-    </Rule>
-    <Rule>
-      <Key>S5042</Key>
-    </Rule>
-    <Rule>
-      <Key>S5753</Key>
-    </Rule>
-    <Rule>
-      <Key>S5443</Key>
-    </Rule>
-    <Rule>
-      <Key>S1313</Key>
-    </Rule>
-    <Rule>
-      <Key>S6444</Key>
-    </Rule>
-    <Rule>
-      <Key>S4036</Key>
-    </Rule>
-    <Rule>
-      <Key>S3329</Key>
-    </Rule>
-    <Rule>
-      <Key>S2225</Key>
     </Rule>
     <Rule>
       <Key>S2346</Key>
@@ -165,9 +216,6 @@
       <Key>S2345</Key>
     </Rule>
     <Rule>
-      <Key>S1134</Key>
-    </Rule>
-    <Rule>
       <Key>S1133</Key>
     </Rule>
     <Rule>
@@ -184,16 +232,10 @@
       </Parameters>
     </Rule>
     <Rule>
-      <Key>S2222</Key>
-    </Rule>
-    <Rule>
       <Key>S6146</Key>
     </Rule>
     <Rule>
       <Key>S2340</Key>
-    </Rule>
-    <Rule>
-      <Key>S2583</Key>
     </Rule>
     <Rule>
       <Key>S2349</Key>
@@ -217,16 +259,10 @@
       <Key>S2352</Key>
     </Rule>
     <Rule>
-      <Key>S1944</Key>
-    </Rule>
-    <Rule>
       <Key>S2359</Key>
     </Rule>
     <Rule>
       <Key>S3449</Key>
-    </Rule>
-    <Rule>
-      <Key>S3655</Key>
     </Rule>
     <Rule>
       <Key>S1110</Key>
@@ -259,9 +295,6 @@
       <Key>S4201</Key>
     </Rule>
     <Rule>
-      <Key>S5659</Key>
-    </Rule>
-    <Rule>
       <Key>S2951</Key>
     </Rule>
     <Rule>
@@ -286,13 +319,7 @@
       <Key>S2368</Key>
     </Rule>
     <Rule>
-      <Key>S6602</Key>
-    </Rule>
-    <Rule>
       <Key>S4545</Key>
-    </Rule>
-    <Rule>
-      <Key>S6603</Key>
     </Rule>
     <Rule>
       <Key>S1155</Key>
@@ -304,25 +331,10 @@
       <Key>S2365</Key>
     </Rule>
     <Rule>
-      <Key>S4663</Key>
-    </Rule>
-    <Rule>
-      <Key>S6609</Key>
-    </Rule>
-    <Rule>
       <Key>S2925</Key>
     </Rule>
     <Rule>
       <Key>S4428</Key>
-    </Rule>
-    <Rule>
-      <Key>S6605</Key>
-    </Rule>
-    <Rule>
-      <Key>S6608</Key>
-    </Rule>
-    <Rule>
-      <Key>S6607</Key>
     </Rule>
     <Rule>
       <Key>S927</Key>
@@ -469,9 +481,6 @@
       </Parameters>
     </Rule>
     <Rule>
-      <Key>S5445</Key>
-    </Rule>
-    <Rule>
       <Key>S3385</Key>
     </Rule>
     <Rule>
@@ -482,12 +491,6 @@
     </Rule>
     <Rule>
       <Key>S1645</Key>
-    </Rule>
-    <Rule>
-      <Key>S2053</Key>
-    </Rule>
-    <Rule>
-      <Key>S3871</Key>
     </Rule>
     <Rule>
       <Key>S6588</Key>
@@ -542,9 +545,6 @@
     </Rule>
     <Rule>
       <Key>S4159</Key>
-    </Rule>
-    <Rule>
-      <Key>S4830</Key>
     </Rule>
     <Rule>
       <Key>S4277</Key>
